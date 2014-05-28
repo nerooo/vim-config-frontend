@@ -144,7 +144,7 @@ Provides advanced javascript features like Smart variable rename, Find variable 
 
 To install just clone the repo, and place symlink to .vimrc in your home directory. E.g.:
 ```bash
-git clone https://github.com/denji/vim-config.git && ln -s ~/vim-config/.vimrc ~/
+git clone https://github.com/denji/vim-config-frontend.git && ln -s ~/vim-config-frontend/.vimrc ~/
 ```
 [NPM](http://en.wikipedia.org/wiki/Npm_(software)) is required for some features.
 
