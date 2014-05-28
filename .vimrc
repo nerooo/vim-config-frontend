@@ -815,3 +815,8 @@ if has("autocmd")
     augroup END
 
 endif
+
+" Make better macvim
+if has('gui_running')
+  set guifont=Monaco:h12
+endif
