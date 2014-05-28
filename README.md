@@ -58,23 +58,23 @@ Quick tab navigation                                      | `leader '`
 
 ### Color scheme
 
-I use color scheme “Solarized”, the light version is enabled by default.
-If you want the dark one, you have to change the following lines:
-```vim
-" Setting up light color scheme
-set background=light
-
-" set highlighting for colorcolumn
-highlight ColorColumn ctermbg=lightGrey
-```
-
-to those:
+I use color scheme “Solarized”, the dark version is enabled by default.
+If you want the light one, you have to change the following lines:
 ```vim
 " Setting up light color scheme
 set background=dark
 
 " set highlighting for colorcolumn
 highlight ColorColumn ctermbg=darkGrey
+```
+
+to those:
+```vim
+" Setting up light color scheme
+set background=light
+
+" set highlighting for colorcolumn
+highlight ColorColumn ctermbg=lightGrey
 ```
 
 ### Full features list
@@ -144,7 +144,7 @@ Provides advanced javascript features like Smart variable rename, Find variable 
 
 To install just clone the repo, and place symlink to .vimrc in your home directory. E.g.:
 ```bash
- git clone https://github.com/L0stSoul/vim-config.git && ln -s ~/vim-config/.vimrc ~/
+git clone https://github.com/denji/vim-config.git && ln -s ~/vim-config/.vimrc ~/
 ```
 [NPM](http://en.wikipedia.org/wiki/Npm_(software)) is required for some features.
 
